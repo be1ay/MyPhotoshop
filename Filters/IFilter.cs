@@ -20,7 +20,7 @@ namespace MyPhotoshop
         /// <param name="parameters"></param>
         /// <returns></returns>
 		Photo Process(Photo original, double[] parameters);
-        Pixel ProcessPixel(Pixel original, double[] parameters);
+        //Pixel ProcessPixel(Pixel original, double[] parameters);
 	}
 }
 

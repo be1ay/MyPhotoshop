@@ -42,6 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\Pixel.cs" />
+    <Compile Include="Filters\EmptyParameters.cs" />
+    <Compile Include="Filters\IParameters.cs" />
+    <Compile Include="Filters\LighteningParameters.cs" />
+    <Compile Include="Filters\ParametrizedFilter.cs" />
     <Compile Include="Filters\PixelFilter.cs" />
     <Compile Include="Filters\GrayscaleFilter.cs" />
     <Compile Include="Filters\ParameterInfo.cs" />
@@ -60,6 +64,7 @@
     <None Include="cat.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Tasks.txt" />

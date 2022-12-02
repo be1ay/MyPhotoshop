@@ -3,3 +3,4 @@ obj
 *.suo
 TestResults/
 .vs
+*.cd
